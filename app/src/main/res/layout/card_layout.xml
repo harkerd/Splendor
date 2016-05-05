@@ -58,6 +58,7 @@
             android:textSize="@dimen/small_text"
             style="@style/border_text"
             android:text="0"
+            android:visibility="gone"
             android:background="@drawable/circle"
             custom:coin_color="@color/sapphire"
             custom:always_visible="false"
