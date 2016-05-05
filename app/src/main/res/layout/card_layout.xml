@@ -12,8 +12,18 @@
         android:layout_width="@dimen/card_icon_size"
         android:layout_height="@dimen/card_icon_size"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:background="@drawable/sapphire_circle"/>
+
+    <TextView
+        android:id="@+id/points"
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/bank_text"
+        android:text="0"/>
 
     <LinearLayout
         android:id="@+id/requirementsLayout"
