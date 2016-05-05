@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="diamond">#FFFFFF</color>
+    <color name="sapphire">#007FFF</color>
+    <color name="emerald">#00AA00</color>
+    <color name="ruby">#FF2400</color>
+    <color name="onyx">#292929</color>
+    <color name="gold">#F4C430</color>
+</resources>

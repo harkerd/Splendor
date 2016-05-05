@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SplendorApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_game_view">GameView</string>
+    <string name="quit_button">Quit Game?</string>
+    <string name="dummy_content">GAME\nVIEW</string>
+</resources>
