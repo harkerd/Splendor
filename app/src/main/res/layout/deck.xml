@@ -7,6 +7,7 @@
 
     <include layout="@layout/card_back"
         android:id="@+id/card_back"/>
+
     <include layout="@layout/card_layout"
         android:id="@+id/slot_one"/>
     <include layout="@layout/card_layout"

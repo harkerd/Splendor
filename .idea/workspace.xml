@@ -24,23 +24,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b3ffb47-3ea8-41cb-9b18-eaea0521efc9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/ValueTokenView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/square.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/GameView.java" afterPath="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/GameView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/ValueTokenView.java" afterPath="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/ValueTokenView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_game_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_game_view.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/bank_coins.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bank_coins.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/card_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/deck.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/deck.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/noble.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/noble.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/player_bank.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/player_bank.xml" />
     </list>
     <ignored path="Splendor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,106 +67,47 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/GameView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/MainActivity.java">
+      <file leaf-file-name="activity_game_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_view.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state vertical-scroll-proportion="-1.4150944">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValueTokenView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/ValueTokenView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-              <folding>
-                <element signature="e#826#1023#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_layout.xml">
+      <file leaf-file-name="player_bank.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/player_bank.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.245283">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="50" selection-end-column="37" />
-              <folding>
-                <element signature="e#610#635#0" expanded="true" />
-                <element signature="e#666#691#0" expanded="true" />
-                <element signature="e#1047#1067#0" expanded="true" />
-                <element signature="e#1273#1292#0" expanded="true" />
-                <element signature="e#1736#1761#0" expanded="true" />
-                <element signature="e#1796#1821#0" expanded="true" />
-                <element signature="e#1851#1870#0" expanded="true" />
-                <element signature="e#2248#2273#0" expanded="true" />
-                <element signature="e#2308#2333#0" expanded="true" />
-                <element signature="e#2363#2382#0" expanded="true" />
-                <element signature="e#2760#2785#0" expanded="true" />
-                <element signature="e#2820#2845#0" expanded="true" />
-                <element signature="e#2875#2894#0" expanded="true" />
-                <element signature="e#3268#3293#0" expanded="true" />
-                <element signature="e#3328#3353#0" expanded="true" />
-                <element signature="e#3383#3402#0" expanded="true" />
-                <element signature="e#3773#3798#0" expanded="true" />
-                <element signature="e#3833#3858#0" expanded="true" />
-                <element signature="e#3888#3907#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.6792452">
+              <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noble.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/noble.xml">
+      <file leaf-file-name="bank_coins.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bank_coins.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7395833">
-              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-              <folding>
-                <element signature="e#151#170#0" expanded="true" />
-                <element signature="e#209#228#0" expanded="true" />
-                <element signature="e#376#396#0" expanded="true" />
-                <element signature="e#583#603#0" expanded="true" />
-                <element signature="e#810#829#0" expanded="true" />
-                <element signature="e#1253#1278#0" expanded="true" />
-                <element signature="e#1313#1338#0" expanded="true" />
-                <element signature="e#1368#1387#0" expanded="true" />
-                <element signature="e#1683#1703#0" expanded="true" />
-                <element signature="e#1738#1758#0" expanded="true" />
-                <element signature="e#1891#1916#0" expanded="true" />
-                <element signature="e#1951#1976#0" expanded="true" />
-                <element signature="e#2006#2025#0" expanded="true" />
-                <element signature="e#2322#2342#0" expanded="true" />
-                <element signature="e#2377#2397#0" expanded="true" />
-                <element signature="e#2529#2554#0" expanded="true" />
-                <element signature="e#2589#2614#0" expanded="true" />
-                <element signature="e#2644#2663#0" expanded="true" />
-                <element signature="e#2959#2979#0" expanded="true" />
-                <element signature="e#3014#3034#0" expanded="true" />
-                <element signature="e#3163#3188#0" expanded="true" />
-                <element signature="e#3223#3248#0" expanded="true" />
-                <element signature="e#3278#3297#0" expanded="true" />
-                <element signature="e#3590#3610#0" expanded="true" />
-                <element signature="e#3645#3665#0" expanded="true" />
-                <element signature="e#3794#3819#0" expanded="true" />
-                <element signature="e#3854#3879#0" expanded="true" />
-                <element signature="e#3909#3928#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.1666667">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1783,14 +1716,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/onyx_square.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ruby_square.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/sapphire_square.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/deck.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/gold_square.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/card_back.xml" />
         <option value="$PROJECT_DIR$/app/src/test/java/drew/harker/splendorapp/GameBuilderTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/model/pieces/Deck.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/player_bank.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/Coin.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/diamond_circle.xml" />
@@ -1798,10 +1727,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/square.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/CoinView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/bank_coins.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/ValueTokenView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/GameView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/card_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/noble.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/deck.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/player_bank.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/bank_coins.xml" />
       </list>
     </option>
   </component>
@@ -1858,24 +1792,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Splendor" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1892,24 +1808,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Splendor" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1966,6 +1864,10 @@
               <option name="myItemId" value="splendorapp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1990,7 +1892,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../School Work/Winter 2016/CS456" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
-    <property name="device.picker.selection" value="Nexus_5_API_23_x86" />
+    <property name="device.picker.selection" value="00A908025215013L" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2331,7 +2233,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2368,96 +2270,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/onyx_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024793388">
-          <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/onyx_circle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ruby_circle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ruby_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024793388">
-          <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/sapphire_circle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/sapphire_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024793388">
-          <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/gold_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024793388">
-          <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/gold_circle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.19377163">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_view.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -2487,6 +2303,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09538951">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2501,16 +2318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21780604">
           <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/deck.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20833333">
-          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -2526,114 +2333,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/player_bank.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.4583335">
-          <caret line="179" column="59" selection-start-line="179" selection-start-column="59" selection-end-line="179" selection-end-column="59" />
-          <folding>
-            <element signature="e#563#579#0" expanded="true" />
-            <element signature="e#971#995#0" expanded="true" />
-            <element signature="e#1030#1054#0" expanded="true" />
-            <element signature="e#1084#1103#0" expanded="true" />
-            <element signature="e#1277#1304#0" expanded="true" />
-            <element signature="e#1339#1363#0" expanded="true" />
-            <element signature="e#1465#1489#0" expanded="true" />
-            <element signature="e#1524#1548#0" expanded="true" />
-            <element signature="e#1578#1597#0" expanded="true" />
-            <element signature="e#1774#1801#0" expanded="true" />
-            <element signature="e#1836#1860#0" expanded="true" />
-            <element signature="e#1963#1987#0" expanded="true" />
-            <element signature="e#2022#2046#0" expanded="true" />
-            <element signature="e#2076#2095#0" expanded="true" />
-            <element signature="e#2273#2300#0" expanded="true" />
-            <element signature="e#2335#2359#0" expanded="true" />
-            <element signature="e#2461#2485#0" expanded="true" />
-            <element signature="e#2520#2544#0" expanded="true" />
-            <element signature="e#2574#2593#0" expanded="true" />
-            <element signature="e#2770#2797#0" expanded="true" />
-            <element signature="e#2832#2856#0" expanded="true" />
-            <element signature="e#2955#2979#0" expanded="true" />
-            <element signature="e#3014#3038#0" expanded="true" />
-            <element signature="e#3068#3087#0" expanded="true" />
-            <element signature="e#3261#3288#0" expanded="true" />
-            <element signature="e#3323#3347#0" expanded="true" />
-            <element signature="e#3446#3470#0" expanded="true" />
-            <element signature="e#3505#3529#0" expanded="true" />
-            <element signature="e#3559#3578#0" expanded="true" />
-            <element signature="e#3752#3779#0" expanded="true" />
-            <element signature="e#3814#3838#0" expanded="true" />
-            <element signature="e#3889#3916#0" expanded="true" />
-            <element signature="e#3951#3975#0" expanded="true" />
-            <element signature="e#4325#4349#0" expanded="true" />
-            <element signature="e#4384#4408#0" expanded="true" />
-            <element signature="e#4438#4457#0" expanded="true" />
-            <element signature="e#4634#4661#0" expanded="true" />
-            <element signature="e#4696#4720#0" expanded="true" />
-            <element signature="e#4818#4842#0" expanded="true" />
-            <element signature="e#4877#4901#0" expanded="true" />
-            <element signature="e#4931#4950#0" expanded="true" />
-            <element signature="e#5128#5155#0" expanded="true" />
-            <element signature="e#5190#5214#0" expanded="true" />
-            <element signature="e#5311#5335#0" expanded="true" />
-            <element signature="e#5370#5394#0" expanded="true" />
-            <element signature="e#5424#5443#0" expanded="true" />
-            <element signature="e#5620#5647#0" expanded="true" />
-            <element signature="e#5682#5706#0" expanded="true" />
-            <element signature="e#5800#5824#0" expanded="true" />
-            <element signature="e#5859#5883#0" expanded="true" />
-            <element signature="e#5913#5932#0" expanded="true" />
-            <element signature="e#6106#6133#0" expanded="true" />
-            <element signature="e#6168#6192#0" expanded="true" />
-            <element signature="e#6286#6310#0" expanded="true" />
-            <element signature="e#6345#6369#0" expanded="true" />
-            <element signature="e#6399#6418#0" expanded="true" />
-            <element signature="e#6654#6678#0" expanded="true" />
-            <element signature="e#6772#6796#0" expanded="true" />
-            <element signature="e#6831#6855#0" expanded="true" />
-            <element signature="e#6885#6904#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/GameView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/card.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/diamond_circle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -2662,50 +2365,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bank_coins.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.245283">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#501#526#0" expanded="true" />
-            <element signature="e#557#582#0" expanded="true" />
-            <element signature="e#643#662#0" expanded="true" />
-            <element signature="e#889#917#0" expanded="true" />
-            <element signature="e#948#973#0" expanded="true" />
-            <element signature="e#1095#1120#0" expanded="true" />
-            <element signature="e#1151#1176#0" expanded="true" />
-            <element signature="e#1237#1256#0" expanded="true" />
-            <element signature="e#1484#1512#0" expanded="true" />
-            <element signature="e#1543#1568#0" expanded="true" />
-            <element signature="e#1688#1713#0" expanded="true" />
-            <element signature="e#1744#1769#0" expanded="true" />
-            <element signature="e#1830#1849#0" expanded="true" />
-            <element signature="e#2076#2104#0" expanded="true" />
-            <element signature="e#2135#2160#0" expanded="true" />
-            <element signature="e#2277#2302#0" expanded="true" />
-            <element signature="e#2333#2358#0" expanded="true" />
-            <element signature="e#2419#2438#0" expanded="true" />
-            <element signature="e#2662#2690#0" expanded="true" />
-            <element signature="e#2721#2746#0" expanded="true" />
-            <element signature="e#2863#2888#0" expanded="true" />
-            <element signature="e#2919#2944#0" expanded="true" />
-            <element signature="e#3005#3024#0" expanded="true" />
-            <element signature="e#3248#3276#0" expanded="true" />
-            <element signature="e#3307#3332#0" expanded="true" />
-            <element signature="e#3449#3474#0" expanded="true" />
-            <element signature="e#3505#3530#0" expanded="true" />
-            <element signature="e#3591#3610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27272728">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/ValueTokenView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2542373">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14527845">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14527845">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/model/StaticCurrentGameAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14527845">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/GameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/noble.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41666666">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -2715,80 +2453,75 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.245283">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="e#610#635#0" expanded="true" />
-            <element signature="e#666#691#0" expanded="true" />
-            <element signature="e#1047#1067#0" expanded="true" />
-            <element signature="e#1273#1292#0" expanded="true" />
-            <element signature="e#1736#1761#0" expanded="true" />
-            <element signature="e#1796#1821#0" expanded="true" />
-            <element signature="e#1851#1870#0" expanded="true" />
-            <element signature="e#2248#2273#0" expanded="true" />
-            <element signature="e#2308#2333#0" expanded="true" />
-            <element signature="e#2363#2382#0" expanded="true" />
-            <element signature="e#2760#2785#0" expanded="true" />
-            <element signature="e#2820#2845#0" expanded="true" />
-            <element signature="e#2875#2894#0" expanded="true" />
-            <element signature="e#3268#3293#0" expanded="true" />
-            <element signature="e#3328#3353#0" expanded="true" />
-            <element signature="e#3383#3402#0" expanded="true" />
-            <element signature="e#3773#3798#0" expanded="true" />
-            <element signature="e#3833#3858#0" expanded="true" />
-            <element signature="e#3888#3907#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.29166666">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/drew/harker/splendorapp/view/ValueTokenView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="e#826#1023#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/noble.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7395833">
-          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-          <folding>
-            <element signature="e#151#170#0" expanded="true" />
-            <element signature="e#209#228#0" expanded="true" />
-            <element signature="e#376#396#0" expanded="true" />
-            <element signature="e#583#603#0" expanded="true" />
-            <element signature="e#810#829#0" expanded="true" />
-            <element signature="e#1253#1278#0" expanded="true" />
-            <element signature="e#1313#1338#0" expanded="true" />
-            <element signature="e#1368#1387#0" expanded="true" />
-            <element signature="e#1683#1703#0" expanded="true" />
-            <element signature="e#1738#1758#0" expanded="true" />
-            <element signature="e#1891#1916#0" expanded="true" />
-            <element signature="e#1951#1976#0" expanded="true" />
-            <element signature="e#2006#2025#0" expanded="true" />
-            <element signature="e#2322#2342#0" expanded="true" />
-            <element signature="e#2377#2397#0" expanded="true" />
-            <element signature="e#2529#2554#0" expanded="true" />
-            <element signature="e#2589#2614#0" expanded="true" />
-            <element signature="e#2644#2663#0" expanded="true" />
-            <element signature="e#2959#2979#0" expanded="true" />
-            <element signature="e#3014#3034#0" expanded="true" />
-            <element signature="e#3163#3188#0" expanded="true" />
-            <element signature="e#3223#3248#0" expanded="true" />
-            <element signature="e#3278#3297#0" expanded="true" />
-            <element signature="e#3590#3610#0" expanded="true" />
-            <element signature="e#3645#3665#0" expanded="true" />
-            <element signature="e#3794#3819#0" expanded="true" />
-            <element signature="e#3854#3879#0" expanded="true" />
-            <element signature="e#3909#3928#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/deck.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.375">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4150944">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/player_bank.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6792452">
+          <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bank_coins.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1666667">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -43,6 +43,7 @@ public class ValueTokenView extends TextView
     protected void onTextChanged(CharSequence text, int start, int lengthBefore, int lengthAfter)
     {
         super.onTextChanged(text, start, lengthBefore, lengthAfter);
+        //TODO: find out why this is currently making everything disappear
         /*if(text.equals("0") && !alwaysVisible)
         {
             setVisibility(GONE);

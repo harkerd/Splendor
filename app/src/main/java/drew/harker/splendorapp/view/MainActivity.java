@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view)
             {
+                //To test the game view with out having to build the settings first
                 Intent intent = new Intent(MainActivity.this, GameView.class);
                 startActivity(intent);
             }

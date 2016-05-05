@@ -30,6 +30,7 @@
         android:textSize="@dimen/large_text"
         android:text="0"/>
 
+    <!-- Cost List (size 1 to 4)-->
     <LinearLayout
         android:id="@+id/requirementsLayout"
         android:layout_width="wrap_content"

@@ -17,13 +17,14 @@
         android:textSize="@dimen/xl_text"
         android:layout_gravity="center_horizontal"/>
 
-    <!-- Card counts -->
+    <!-- Card counts (All 5) -->
     <LinearLayout android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:layout_gravity="center_horizontal">
 
+        <!-- TODO: find a more intuitive way to display points -->
         <drew.harker.splendorapp.view.ValueTokenView
             android:id="@+id/points"
             android:layout_width="@dimen/small_token_size"
@@ -126,13 +127,13 @@
 
     <!--/LinearLayout>
 
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"-->
-    <!-- Coin counts -->
+
+        <!-- Coin counts (All 6) -->
 
         <drew.harker.splendorapp.view.ValueTokenView
             android:id="@+id/diamondBank"

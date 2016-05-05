@@ -12,5 +12,7 @@ public class GameView extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_view);
+
+        //TODO: initialize the game state
     }
 }

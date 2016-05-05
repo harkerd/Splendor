@@ -6,6 +6,7 @@
               android:layout_height="match_parent"
               android:padding="@dimen/layout_padding">
 
+    <!-- Coin counts (All 6) -->
     <drew.harker.splendorapp.view.ValueTokenView
         android:id="@+id/diamondBank"
         android:layout_width="@dimen/large_token_size"

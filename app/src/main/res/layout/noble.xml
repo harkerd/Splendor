@@ -18,6 +18,7 @@
         android:textSize="@dimen/large_text"
         android:text="0"/>
 
+    <!-- Cost List (size 2 to 3)-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
