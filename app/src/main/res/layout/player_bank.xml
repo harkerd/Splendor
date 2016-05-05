@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 0"
+        android:textSize="@dimen/xl_text"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Card counts -->
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/gold_square"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/diamondCardCount"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/diamond_square"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/sapphireCardCount"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/sapphire_square"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/emeraldCardCount"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/emerald_square"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/rubyCardCount"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/ruby_square"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/onyxCardCount"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/onyx_square"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+    <!--/LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"-->
+    <!-- Coin counts -->
+
+        <TextView
+            android:id="@+id/diamondBank"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/diamond_circle"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/sapphireBank"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/sapphire_circle"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/emeraldBank"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/emerald_circle"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/rubyBank"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/ruby_circle"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/onyxBank"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/onyx_circle"/>
+
+        <View
+            android:layout_width="@dimen/icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <TextView
+            android:id="@+id/goldBank"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:textSize="@dimen/small_text"
+            style="@style/border_text"
+            android:text="0"
+            android:background="@drawable/gold_circle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -39,6 +39,8 @@
          android:id="@+id/bank"/>
 
         <!-- Users Cards and Coins and Points -->
+        <include layout="@layout/player_bank"
+         android:id="@+id/player_bank"/>
 
     </LinearLayout>
 

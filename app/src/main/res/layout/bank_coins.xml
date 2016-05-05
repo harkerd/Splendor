@@ -4,85 +4,85 @@
               android:orientation="horizontal"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:padding="15dp">
+              android:padding="@dimen/layout_padding">
 
     <TextView
         android:id="@+id/diamondBank"
-        android:layout_width="@dimen/bank_coin_size"
-        android:layout_height="@dimen/bank_coin_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         style="@style/border_text"
-        android:textSize="@dimen/bank_text"
+        android:textSize="@dimen/large_text"
         android:text="0"
         android:background="@drawable/diamond_circle"/>
 
     <View
-        android:layout_width="@dimen/bank_coin_padding"
-        android:layout_height="@dimen/bank_coin_size"/>
+        android:layout_width="@dimen/icon_padding"
+        android:layout_height="@dimen/large_icon_size"/>
 
     <TextView
         android:id="@+id/sapphireBank"
-        android:layout_width="@dimen/bank_coin_size"
-        android:layout_height="@dimen/bank_coin_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         style="@style/border_text"
-        android:textSize="@dimen/bank_text"
+        android:textSize="@dimen/large_text"
         android:text="0"
         android:background="@drawable/sapphire_circle"/>
 
     <!--drew.harker.splendorapp.view.Coin
-        android:layout_width="@dimen/bank_coin_size"
-        android:layout_height="@dimen/bank_coin_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         custom:coin_color="@color/sapphire"
         custom:always_visible="true"/-->
 
     <View
-        android:layout_width="@dimen/bank_coin_padding"
-        android:layout_height="@dimen/bank_coin_size"/>
+        android:layout_width="@dimen/icon_padding"
+        android:layout_height="@dimen/large_icon_size"/>
 
     <TextView
         android:id="@+id/emeraldBank"
-        android:layout_width="@dimen/bank_coin_size"
-        android:layout_height="@dimen/bank_coin_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         style="@style/border_text"
-        android:textSize="@dimen/bank_text"
+        android:textSize="@dimen/large_text"
         android:text="0"
         android:background="@drawable/emerald_circle"/>
 
     <View
-        android:layout_width="@dimen/bank_coin_padding"
-        android:layout_height="@dimen/bank_coin_size"/>
+        android:layout_width="@dimen/icon_padding"
+        android:layout_height="@dimen/large_icon_size"/>
 
     <TextView
         android:id="@+id/rubyBank"
-        android:layout_width="@dimen/bank_coin_size"
-        android:layout_height="@dimen/bank_coin_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         style="@style/border_text"
-        android:textSize="@dimen/bank_text"
+        android:textSize="@dimen/large_text"
         android:text="0"
         android:background="@drawable/ruby_circle"/>
 
     <View
-        android:layout_width="@dimen/bank_coin_padding"
-        android:layout_height="@dimen/bank_coin_size"/>
+        android:layout_width="@dimen/icon_padding"
+        android:layout_height="@dimen/large_icon_size"/>
 
     <TextView
         android:id="@+id/onyxBank"
-        android:layout_width="@dimen/bank_coin_size"
-        android:layout_height="@dimen/bank_coin_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         style="@style/border_text"
-        android:textSize="@dimen/bank_text"
+        android:textSize="@dimen/large_text"
         android:text="0"
         android:background="@drawable/onyx_circle"/>
 
     <View
-        android:layout_width="@dimen/bank_coin_padding"
-        android:layout_height="@dimen/bank_coin_size"/>
+        android:layout_width="@dimen/icon_padding"
+        android:layout_height="@dimen/large_icon_size"/>
 
     <TextView
         android:id="@+id/goldBank"
-        android:layout_width="@dimen/bank_coin_size"
-        android:layout_height="@dimen/bank_coin_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         style="@style/border_text"
-        android:textSize="@dimen/bank_text"
+        android:textSize="@dimen/large_text"
         android:text="0"
         android:background="@drawable/gold_circle"/>
 

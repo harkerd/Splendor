@@ -4,17 +4,22 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
+    <dimen name="layout_padding">15dp</dimen>
+
     <!-- Card sizes -->
     <dimen name="card_width">100dp</dimen>
     <dimen name="card_height">150dp</dimen>
     <dimen name="card_margin">3dp</dimen>
-    <dimen name="card_icon_size">25dp</dimen>
-
-    <!-- Bank sizes -->
-    <dimen name="bank_coin_size">75dp</dimen>
-    <dimen name="bank_coin_padding">10dp</dimen>
-    <dimen name="bank_text">25dp</dimen>
-
-    <!-- Noble sizes -->
     <dimen name="noble_size">100dp</dimen>
+
+    <!-- Icon sizes -->
+    <dimen name="icon_padding">10dp</dimen>
+
+    <dimen name="large_icon_size">75dp</dimen>
+    <dimen name="med_icon_size">25dp</dimen>
+    <dimen name="small_icon_size">25dp</dimen>
+    <dimen name="small_text">15dp</dimen>
+    <dimen name="med_text">20dp</dimen>
+    <dimen name="large_text">25dp</dimen>
+    <dimen name="xl_text">30dp</dimen>
 </resources>
