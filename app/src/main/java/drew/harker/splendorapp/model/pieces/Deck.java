@@ -1,5 +1,6 @@
 package drew.harker.splendorapp.model.pieces;
 
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 import drew.harker.splendorapp.model.exceptions.CardDoesNotExistException;
@@ -37,24 +38,59 @@ public class Deck
 
     private void shuffle()
     {
-        int numberOfShuffles = cards.size();
+        int timesToShuffle = 30;
 
-        boolean back = false;
-        for(int j = 0; j < numberOfShuffles; j++)
+        for(int numberOfShuffles = 0; numberOfShuffles <  timesToShuffle; numberOfShuffles++)
         {
-            int index = r.nextInt(cards.size());
-            Card c = cards.remove(index);
-            if(back)
-            {
-                cards.add(c);
-            }
-            else
-            {
-                cards.add(0, c);
-            }
-            back = !back;
-        }
+            int size = cards.size();
+            int half = size / 2;
+            List<Card> topHalf = new LinkedList();
+            List<Card> bottomHalf = new LinkedList();
 
+            for(int i = 0; i < size; i++)
+            {
+                if(i < half)
+                {
+                    topHalf.add(cards.get(i));
+                }
+                else
+                {
+                    bottomHalf.add(cards.get(i));
+                }
+            }
+
+            cards = new LinkedList<>();
+
+
+            for(int i = 0; i < size; i++)
+            {
+                boolean top;
+                if(topHalf.size() > 0 && bottomHalf.size() > 0)
+                {
+                    top = r.nextBoolean();
+                }
+                else if(topHalf.size() > 0)
+                {
+                    top = true;
+                }
+                else
+                {
+                    top = false;
+                }
+
+
+                if(top)
+                {
+                    int lastIndex = topHalf.size() - 1;
+                    cards.add(topHalf.remove(lastIndex));
+                }
+                else
+                {
+                    int lastIndex = bottomHalf.size() - 1;
+                    cards.add(bottomHalf.remove(lastIndex));
+                }
+            }
+        }
     }
 
     public boolean isEmpty()
