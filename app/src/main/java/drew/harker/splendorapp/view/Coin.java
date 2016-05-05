@@ -21,16 +21,6 @@ public class Coin extends TextView
 
         TypedArray attributes = context.obtainStyledAttributes(set, R.styleable.Coin);
         alwaysVisible = attributes.getBoolean(R.styleable.Coin_always_visible, false);
-        /*int colorId = attributes.getResourceId(R.styleable.Coin_coin_color, R.color.gold);
-
-        Drawable background = getResources().getDrawable(R.drawable.circle);
-        int color = getResources().getColor(colorId);
-
-        ColorFilter filter = new LightingColorFilter(color, color);
-        background.setColorFilter(filter);
-        setBackground(background);
-        setText("0");
-        setTextAppearance(context, R.style.border_text);*/
 
         setOnClickListener(new OnClickListener()
         {
