@@ -13,13 +13,13 @@
     <dimen name="noble_size">100dp</dimen>
 
     <!-- Icon sizes -->
-    <dimen name="icon_padding">10dp</dimen>
+    <dimen name="small_icon_padding">5dp</dimen>
+    <dimen name="large_icon_padding">10dp</dimen>
 
-    <dimen name="large_icon_size">75dp</dimen>
-    <dimen name="med_icon_size">25dp</dimen>
     <dimen name="small_icon_size">25dp</dimen>
+    <dimen name="large_icon_size">75dp</dimen>
+
     <dimen name="small_text">15dp</dimen>
-    <dimen name="med_text">20dp</dimen>
     <dimen name="large_text">25dp</dimen>
     <dimen name="xl_text">30dp</dimen>
 </resources>

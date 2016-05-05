@@ -33,7 +33,7 @@
             android:background="@drawable/gold_square"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -46,7 +46,7 @@
             android:background="@drawable/diamond_square"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -59,7 +59,7 @@
             android:background="@drawable/sapphire_square"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -72,7 +72,7 @@
             android:background="@drawable/emerald_square"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -85,7 +85,7 @@
             android:background="@drawable/ruby_square"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -98,7 +98,11 @@
             android:background="@drawable/onyx_square"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
+            android:layout_height="@dimen/small_icon_size"/>
+
+        <View
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
     <!--/LinearLayout>
@@ -121,7 +125,7 @@
             android:background="@drawable/diamond_circle"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -134,7 +138,7 @@
             android:background="@drawable/sapphire_circle"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -147,7 +151,7 @@
             android:background="@drawable/emerald_circle"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -160,7 +164,7 @@
             android:background="@drawable/ruby_circle"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
@@ -173,7 +177,7 @@
             android:background="@drawable/onyx_circle"/>
 
         <View
-            android:layout_width="@dimen/icon_padding"
+            android:layout_width="@dimen/small_icon_padding"
             android:layout_height="@dimen/small_icon_size"/>
 
         <TextView
