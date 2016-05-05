@@ -27,20 +27,20 @@
         </LinearLayout>
 
         <include layout="@layout/deck"
-                 android:id="@+id/deck_three"/>
+             android:id="@+id/deck_three"/>
 
         <include layout="@layout/deck"
-         android:id="@+id/deck_two"/>
+            android:id="@+id/deck_two"/>
 
         <include layout="@layout/deck"
-                 android:id="@+id/deck_one"/>
+             android:id="@+id/deck_one"/>
 
         <include layout="@layout/bank_coins"
-         android:id="@+id/bank"/>
+            android:id="@+id/bank"/>
 
         <!-- Users Cards and Coins and Points -->
         <include layout="@layout/player_bank"
-         android:id="@+id/player_bank"/>
+            android:id="@+id/player_bank"/>
 
         <!-- TODO: build a way to look your reserved cards and at the other players stuff -->
 

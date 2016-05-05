@@ -2,6 +2,7 @@ package drew.harker.splendorapp.view;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
+import android.util.AttributeSet;
 import android.view.View;
 
 import drew.harker.splendorapp.R;
@@ -10,9 +11,10 @@ import drew.harker.splendorapp.model.pieces.Gem;
 
 public class SourceView extends View
 {
-    public SourceView(Context context)
+
+    public SourceView(Context context, AttributeSet attrs)
     {
-        super(context);
+        super(context, attrs);
     }
 
     public void updateColorRes(Gem source) throws InvalidTypeException

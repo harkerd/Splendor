@@ -14,8 +14,7 @@
         android:layout_height="@dimen/small_token_size"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:background="@drawable/circle"
-        android:text=""/>
+        android:background="@drawable/circle"/>
 
     <TextView
         android:id="@+id/points"
