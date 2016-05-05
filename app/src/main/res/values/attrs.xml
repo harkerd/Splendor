@@ -9,9 +9,10 @@
         <attr name="metaButtonBarButtonStyle" format="reference"/>
     </declare-styleable>
 
-    <declare-styleable name="Coin">
+    <declare-styleable name="ValueTokenView">
         <attr name="coin_color" format="reference" />
         <attr name="always_visible" format="boolean" />
+        <attr name="selectable" format="boolean" />
     </declare-styleable>
 
 </resources>
