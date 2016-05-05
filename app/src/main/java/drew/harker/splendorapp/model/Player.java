@@ -2,8 +2,8 @@ package drew.harker.splendorapp.model;
 
 import java.util.List;
 
-import drew.harker.splendorapp.model.exceptions.InvalidActionException;
-import drew.harker.splendorapp.model.exceptions.InvalidTypeException;
+import drew.harker.splendorapp.exceptions.InvalidActionException;
+import drew.harker.splendorapp.exceptions.InvalidTypeException;
 import drew.harker.splendorapp.model.pieces.Card;
 import drew.harker.splendorapp.model.pieces.GemList;
 import drew.harker.splendorapp.model.pieces.Noble;

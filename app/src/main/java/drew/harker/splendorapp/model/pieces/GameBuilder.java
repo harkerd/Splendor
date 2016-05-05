@@ -1,13 +1,11 @@
 package drew.harker.splendorapp.model.pieces;
 
-import android.os.SystemClock;
-
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-import drew.harker.splendorapp.model.exceptions.InvalidActionException;
-import drew.harker.splendorapp.model.exceptions.InvalidTypeException;
+import drew.harker.splendorapp.exceptions.InvalidActionException;
+import drew.harker.splendorapp.exceptions.InvalidTypeException;
 
 public class GameBuilder
 {

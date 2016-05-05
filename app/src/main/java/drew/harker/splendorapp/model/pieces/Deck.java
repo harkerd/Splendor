@@ -3,8 +3,10 @@ package drew.harker.splendorapp.model.pieces;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
-import drew.harker.splendorapp.model.exceptions.CardDoesNotExistException;
-import drew.harker.splendorapp.model.exceptions.InvalidActionException;
+
+import drew.harker.splendorapp.R;
+import drew.harker.splendorapp.exceptions.CardDoesNotExistException;
+import drew.harker.splendorapp.exceptions.InvalidActionException;
 
 public class Deck
 {
@@ -13,8 +15,22 @@ public class Deck
     public static final int CARD_VISIBLE_TWO = 2;
     public static final int CARD_VISIBLE_THREE = 3;
     public static final int CARD_VISIBLE_FOUR = 4;
-    private static final int NUMBER_OF_CARDS_VISIBLE = 4;
+    public static final int NUMBER_OF_CARDS_VISIBLE = 4;
     private static final Random r = new Random(System.currentTimeMillis());
+
+    public static int getResId(int slotNumber) throws InvalidActionException
+    {
+        int id;
+        switch (slotNumber)
+        {
+            case 0: id = R.id.slot_one; break;
+            case 1: id = R.id.slot_two; break;
+            case 2: id = R.id.slot_three; break;
+            case 3: id = R.id.slot_four; break;
+            default: throw new InvalidActionException();
+        }
+        return id;
+    }
 
     private List<Card> cards;
     private Card[] cardsOnDisplay = new Card[NUMBER_OF_CARDS_VISIBLE];
@@ -123,6 +139,26 @@ public class Deck
                     cardToDisplay = cards.remove(TOP_OF_DECK);
                 }
                 cardsOnDisplay[cardIndex - 1] = cardToDisplay;
+                return cardToReturn;
+            }
+        }
+    }
+
+    public Card getCardInfo(int cardIndex) throws CardDoesNotExistException, InvalidActionException
+    {
+        if(cardIndex > NUMBER_OF_CARDS_VISIBLE || cardIndex == TOP_OF_DECK)
+        {
+            throw new InvalidActionException();
+        }
+        else
+        {
+            Card cardToReturn = cardsOnDisplay[cardIndex - 1];
+            if(cardToReturn == null)
+            {
+                throw new CardDoesNotExistException();
+            }
+            else
+            {
                 return cardToReturn;
             }
         }

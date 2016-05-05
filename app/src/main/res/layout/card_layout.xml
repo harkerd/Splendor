@@ -8,17 +8,14 @@
                 android:layout_margin="@dimen/card_margin"
                 android:background="@drawable/card">
 
-    <drew.harker.splendorapp.view.ValueTokenView
+    <drew.harker.splendorapp.view.SourceView
         android:id="@+id/source"
         android:layout_width="@dimen/small_token_size"
         android:layout_height="@dimen/small_token_size"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:background="@drawable/circle"
-        android:text=""
-        custom:coin_color="@color/sapphire"
-        custom:always_visible="true"
-        custom:selectable="false"/>
+        android:text=""/>
 
     <TextView
         android:id="@+id/points"

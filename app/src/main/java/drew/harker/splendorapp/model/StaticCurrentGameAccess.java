@@ -2,11 +2,11 @@ package drew.harker.splendorapp.model;
 
 import java.util.List;
 
-import drew.harker.splendorapp.model.exceptions.CanPickMultipleNoblesException;
-import drew.harker.splendorapp.model.exceptions.CardDoesNotExistException;
-import drew.harker.splendorapp.model.exceptions.InsufficientResourcesException;
-import drew.harker.splendorapp.model.exceptions.InvalidActionException;
-import drew.harker.splendorapp.model.exceptions.InvalidTypeException;
+import drew.harker.splendorapp.exceptions.CanPickMultipleNoblesException;
+import drew.harker.splendorapp.exceptions.CardDoesNotExistException;
+import drew.harker.splendorapp.exceptions.InsufficientResourcesException;
+import drew.harker.splendorapp.exceptions.InvalidActionException;
+import drew.harker.splendorapp.exceptions.InvalidTypeException;
 import drew.harker.splendorapp.model.pieces.Card;
 import drew.harker.splendorapp.model.pieces.GemList;
 import drew.harker.splendorapp.model.pieces.Location;
@@ -17,35 +17,42 @@ import drew.harker.splendorapp.model.pieces.TokenList;
 public class StaticCurrentGameAccess
 {
     private static Game currentGame;
+
+    public static boolean hasGame()
+    {
+        return currentGame != null;
+    }
+
+    public static void setCurrentGame(Game game)
+    {
+        currentGame = game;
+    }
+
+    public static Game getCurrentGame()
+    {
+        return currentGame;
+    }
+
+    /*
     private static Player currentPlayer;
-    private static TokenList bank;
-    private static List<Noble> nobles;
+    private static TokenList currentBank;
+    private static List<Noble> currentNobles;
+
+
 
     public static void init(Game game)
     {
         currentGame = game;
+        currentBank = game.getBankPointer();
+        currentNobles = game.getNoblesPointer();
 
-        int tokenMax = -1;
-        if(currentGame.getPlayerCount() == 4)
-        {
-            tokenMax = 7;
-        }
-        else if(currentGame.getPlayerCount() == 3)
-        {
-            tokenMax = 5;
-        }
-        else if(currentGame.getPlayerCount() == 2)
-        {
-            tokenMax = 4;
-        }
-
-        bank = new TokenList(tokenMax);
+        currentPlayer = game.endTurn();
     }
 
     public static void takeTwoSameTokens(Token token) throws InvalidTypeException, InsufficientResourcesException
     {
-        bank.decrement(token);
-        bank.decrement(token);
+        currentBank.decrement(token);
+        currentBank.decrement(token);
 
         currentPlayer.increment(token);
         currentPlayer.increment(token);
@@ -55,7 +62,7 @@ public class StaticCurrentGameAccess
     {
         try
         {
-            if(bank.get(token) >= 4)
+            if(currentBank.get(token) >= 4)
             {
                 return true;
             }
@@ -71,9 +78,9 @@ public class StaticCurrentGameAccess
 
     public static void takeThreeDifferentTokens(Token token1, Token token2, Token token3) throws InsufficientResourcesException, InvalidTypeException
     {
-        bank.decrement(token1);
-        bank.decrement(token2);
-        bank.decrement(token3);
+        currentBank.decrement(token1);
+        currentBank.decrement(token2);
+        currentBank.decrement(token3);
 
         currentPlayer.increment(token1);
         currentPlayer.increment(token2);
@@ -90,7 +97,7 @@ public class StaticCurrentGameAccess
         {
             try
             {
-                if (bank.get(token1) > 0 && bank.get(token2) > 0 && bank.get(token3) > 0)
+                if (currentBank.get(token1) > 0 && currentBank.get(token2) > 0 && currentBank.get(token3) > 0)
                 {
                     return true;
                 }
@@ -117,7 +124,7 @@ public class StaticCurrentGameAccess
             cardPrice = currentGame.getCardPrice(deckIndex, cardIndex);
         }
 
-        bank.increment(currentPlayer.payPrice(cardPrice));
+        currentBank.increment(currentPlayer.payPrice(cardPrice));
         //TODO: Fix, user needs to provide input probably
 
         Card card;
@@ -192,7 +199,7 @@ public class StaticCurrentGameAccess
     {
         if(canPickNoble(nobleIndex))
         {
-            currentPlayer.addNoble(nobles.remove(nobleIndex));
+            currentPlayer.addNoble(currentNobles.remove(nobleIndex));
         }
         else
         {
@@ -202,15 +209,15 @@ public class StaticCurrentGameAccess
 
     public static boolean canPickNoble(int nobleIndex)
     {
-        return currentPlayer.canPayWithJustCards(nobles.get(nobleIndex).getRequirement());
+        return currentPlayer.canPayWithJustCards(currentNobles.get(nobleIndex).getRequirement());
     }
 
     public static void checkNobles() throws CanPickMultipleNoblesException, InvalidActionException
     {
         int count = 0;
 
-        boolean[] possibleNobles = new boolean[nobles.size()];
-        for(int i = 0; i < nobles.size(); i++)
+        boolean[] possibleNobles = new boolean[currentNobles.size()];
+        for(int i = 0; i < currentNobles.size(); i++)
         {
             possibleNobles[i] = false;
             if(canPickNoble(i))
@@ -246,5 +253,5 @@ public class StaticCurrentGameAccess
     public static void endTurn()
     {
         currentPlayer = currentGame.endTurn();
-    }
+    }*/
 }

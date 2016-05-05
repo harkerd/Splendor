@@ -1,4 +1,4 @@
-package drew.harker.splendorapp.model.exceptions;
+package drew.harker.splendorapp.exceptions;
 
 public class InvalidActionException extends Exception
 {

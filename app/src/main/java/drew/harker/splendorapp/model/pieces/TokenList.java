@@ -1,7 +1,7 @@
 package drew.harker.splendorapp.model.pieces;
 
-import drew.harker.splendorapp.model.exceptions.InsufficientResourcesException;
-import drew.harker.splendorapp.model.exceptions.InvalidTypeException;
+import drew.harker.splendorapp.exceptions.InsufficientResourcesException;
+import drew.harker.splendorapp.exceptions.InvalidTypeException;
 
 public class TokenList
 {
