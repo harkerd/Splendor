@@ -112,17 +112,12 @@ public class Game
         return result;
     }
 
-    public int getPlayerCount()
-    {
-        return players.size();
-    }
-
-    protected List<Noble> getNoblesPointer()
+    public List<Noble> getNobles()
     {
         return nobles;
     }
 
-    protected TokenList getBankPointer()
+    public TokenList getBank()
     {
         return bank;
     }

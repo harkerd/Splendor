@@ -13,17 +13,24 @@
         android:orientation="vertical"
         android:gravity="center_horizontal|center_vertical">
 
-        <!-- Nobles List (size 3 to 5)-->
+        <!-- Nobles List (size 0 to 5)-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_horizontal">
 
-            <include layout="@layout/noble" />
-            <include layout="@layout/noble" />
-            <include layout="@layout/noble" />
-            <include layout="@layout/noble" />
+            <include layout="@layout/noble"
+                android:id="@+id/noble_five"/>
+            <include layout="@layout/noble"
+                 android:id="@+id/noble_four"/>
+            <include layout="@layout/noble"
+                 android:id="@+id/noble_three"/>
+            <include layout="@layout/noble"
+                 android:id="@+id/noble_two"/>
+            <include layout="@layout/noble"
+                 android:id="@+id/noble_one"/>
+
         </LinearLayout>
 
         <include layout="@layout/deck"
@@ -35,7 +42,7 @@
         <include layout="@layout/deck"
              android:id="@+id/deck_one"/>
 
-        <include layout="@layout/bank_coins"
+        <include layout="@layout/bank"
             android:id="@+id/bank"/>
 
         <!-- Users Cards and Coins and Points -->

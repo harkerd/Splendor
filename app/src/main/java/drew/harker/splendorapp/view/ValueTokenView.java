@@ -11,7 +11,7 @@ import drew.harker.splendorapp.R;
 
 public class ValueTokenView extends TextView
 {
-    private boolean alwaysVisible;
+    private boolean alwaysVisible = true;
 
     public ValueTokenView(Context context, AttributeSet set)
     {
@@ -23,14 +23,14 @@ public class ValueTokenView extends TextView
         boolean selectable = attributes.getBoolean(R.styleable.ValueTokenView_selectable, false);
         if(selectable)
         {
-            setOnClickListener(new OnClickListener()
+            /*setOnClickListener(new OnClickListener()
             {
                 @Override
                 public void onClick(View v)
                 {
                     setSelectable(false);
                 }
-            });
+            });*/
         }
 
         int colorId = attributes.getResourceId(R.styleable.ValueTokenView_coin_color, R.color.gold);
@@ -43,19 +43,23 @@ public class ValueTokenView extends TextView
     protected void onTextChanged(CharSequence text, int start, int lengthBefore, int lengthAfter)
     {
         super.onTextChanged(text, start, lengthBefore, lengthAfter);
-        //TODO: find out why this is currently making everything disappear
-        /*if(text.equals("0") && !alwaysVisible)
+        if(text.equals("0") && !alwaysVisible)
         {
             setVisibility(GONE);
             update();
-        }*/
+        }
+        else
+        {
+            setVisibility(VISIBLE);
+            update();
+        }
     }
 
-    public void setSelectable(boolean isSelectable)
+    /*public void setSelectable(boolean isSelectable)
     {
         //setAlpha(.5f);
         update();
-    }
+    }*/
 
     private void update()
     {

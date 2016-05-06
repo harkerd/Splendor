@@ -41,14 +41,14 @@ public class Deck
         this.cards = cards;
         shuffle();
         int numberOfCardsVisible = NUMBER_OF_CARDS_VISIBLE;
-        if(cards.size() < numberOfCardsVisible)
+        if(this.cards.size() < numberOfCardsVisible)
         {
-            numberOfCardsVisible = cards.size();
+            numberOfCardsVisible = this.cards.size();
         }
 
         for(int i = 0; i < numberOfCardsVisible; i++)
         {
-            cardsOnDisplay[i] = cards.remove(TOP_OF_DECK);
+            cardsOnDisplay[i] = this.cards.remove(TOP_OF_DECK);
         }
     }
 

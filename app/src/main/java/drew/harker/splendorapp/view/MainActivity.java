@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity
                 {
                     //To test the game view with out having to build the settings first
                     Intent intent = new Intent(MainActivity.this, GameView.class);
-                    StaticCurrentGameAccess.setCurrentGame(Game.newGame(3));
+                    StaticCurrentGameAccess.setCurrentGame(Game.newGame(4));
                     startActivity(intent);
                 } catch (InvalidActionException e)
                 {

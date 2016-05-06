@@ -15,8 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:textSize="@dimen/large_text"
-        android:text="0"/>
+        android:textSize="@dimen/large_text"/>
 
     <!-- Cost List (size 2 to 3)-->
     <LinearLayout
@@ -24,82 +23,63 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical"
-        android:text="0">
+        android:orientation="vertical">
 
         <drew.harker.splendorapp.view.ValueTokenView
             android:id="@+id/diamondCost"
             android:layout_width="@dimen/small_token_size"
             android:layout_height="@dimen/small_token_size"
+            android:layout_marginTop="@dimen/card_margin"
             android:textSize="@dimen/small_text"
             style="@style/border_text"
-            android:text="0"
             android:background="@drawable/square"
             custom:coin_color="@color/diamond"
             custom:always_visible="false"
             custom:selectable="false"/>
 
-        <View
-            android:layout_width="@dimen/card_margin"
-            android:layout_height="@dimen/card_margin"/>
-
         <drew.harker.splendorapp.view.ValueTokenView
             android:id="@+id/sapphireCost"
             android:layout_width="@dimen/small_token_size"
             android:layout_height="@dimen/small_token_size"
+            android:layout_marginTop="@dimen/card_margin"
             android:textSize="@dimen/small_text"
             style="@style/border_text"
-            android:text="0"
-            android:visibility="gone"
             android:background="@drawable/square"
             custom:coin_color="@color/sapphire"
             custom:always_visible="false"
             custom:selectable="false"/>
 
-        <View
-            android:layout_width="@dimen/card_margin"
-            android:layout_height="@dimen/card_margin"/>
-
         <drew.harker.splendorapp.view.ValueTokenView
             android:id="@+id/emeraldCost"
             android:layout_width="@dimen/small_token_size"
             android:layout_height="@dimen/small_token_size"
+            android:layout_marginTop="@dimen/card_margin"
             android:textSize="@dimen/small_text"
             style="@style/border_text"
-            android:text="0"
             android:background="@drawable/square"
             custom:coin_color="@color/emerald"
             custom:always_visible="false"
             custom:selectable="false"/>
 
-        <View
-            android:layout_width="@dimen/card_margin"
-            android:layout_height="@dimen/card_margin"/>
-
         <drew.harker.splendorapp.view.ValueTokenView
             android:id="@+id/rubyCost"
             android:layout_width="@dimen/small_token_size"
             android:layout_height="@dimen/small_token_size"
+            android:layout_marginTop="@dimen/card_margin"
             android:textSize="@dimen/small_text"
             style="@style/border_text"
-            android:text="0"
-            android:visibility="gone"
             android:background="@drawable/square"
             custom:coin_color="@color/ruby"
             custom:always_visible="false"
             custom:selectable="false"/>
 
-        <View
-            android:layout_width="@dimen/card_margin"
-            android:layout_height="@dimen/card_margin"/>
-
         <drew.harker.splendorapp.view.ValueTokenView
             android:id="@+id/onyxCost"
             android:layout_width="@dimen/small_token_size"
             android:layout_height="@dimen/small_token_size"
+            android:layout_marginTop="@dimen/card_margin"
             android:textSize="@dimen/small_text"
             style="@style/border_text"
-            android:text="0"
             android:background="@drawable/square"
             custom:coin_color="@color/onyx"
             custom:always_visible="false"
