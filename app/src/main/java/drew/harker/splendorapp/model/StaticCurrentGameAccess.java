@@ -2,6 +2,7 @@ package drew.harker.splendorapp.model;
 
 import java.util.List;
 
+import drew.harker.splendorapp.controller.GameController;
 import drew.harker.splendorapp.exceptions.CanPickMultipleNoblesException;
 import drew.harker.splendorapp.exceptions.CardDoesNotExistException;
 import drew.harker.splendorapp.exceptions.InsufficientResourcesException;
@@ -13,10 +14,12 @@ import drew.harker.splendorapp.model.pieces.Location;
 import drew.harker.splendorapp.model.pieces.Noble;
 import drew.harker.splendorapp.model.pieces.Token;
 import drew.harker.splendorapp.model.pieces.TokenList;
+import drew.harker.splendorapp.view.ReserveView;
 
 public class StaticCurrentGameAccess
 {
     private static Game currentGame;
+    private static GameController gameController;
 
     public static boolean hasGame()
     {
@@ -26,11 +29,17 @@ public class StaticCurrentGameAccess
     public static void setCurrentGame(Game game)
     {
         currentGame = game;
+        gameController = new GameController(currentGame);
     }
 
     public static Game getCurrentGame()
     {
         return currentGame;
+    }
+
+    public static GameController getController()
+    {
+        return gameController;
     }
 
     /*

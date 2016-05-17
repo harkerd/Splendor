@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0099cc">
+
+    <include layout="@layout/player_bank"
+             android:id="@+id/player0"/>
+
+    <include layout="@layout/player_bank"
+             android:id="@+id/player1"/>
+
+    <include layout="@layout/player_bank"
+             android:id="@+id/player2"/>
+
+    <include layout="@layout/player_bank"
+             android:id="@+id/player3"/>
+
+</LinearLayout>

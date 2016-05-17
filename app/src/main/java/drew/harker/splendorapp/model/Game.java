@@ -16,6 +16,10 @@ import drew.harker.splendorapp.model.pieces.TokenList;
 
 public class Game
 {
+    public static final int MAX_NUMBER_OF_PLAYERS = 4;
+    public static final int MIN_NUMBER_OF_PLAYERS = 2;
+    public static final int MAX_NUMBER_OF_RESERVED_CARDS = 3;
+
     private List<User> users; //The users index corresponds to the player index.
     private final int victoryPointLimit = 15;
     private int turnIndex = -1;
@@ -36,7 +40,7 @@ public class Game
         game.players = new ArrayList<>();
         for(int i = 0; i < numberOfPlayers; i++)
         {
-            game.players.add(new Player());
+            game.players.add(new Player("Player " + String.valueOf(i + 1)));
         }
 
         int tokenMax = -1;
@@ -58,6 +62,7 @@ public class Game
         game.levelTwo = GameBuilder.initLevelTwo();
         game.levelOne = GameBuilder.initLevelOne();
 
+        game.turnIndex++;
         return game;
     }
 
@@ -120,5 +125,20 @@ public class Game
     public TokenList getBank()
     {
         return bank;
+    }
+
+    public Player getCurrentPlayer()
+    {
+        return players.get(turnIndex);
+    }
+
+    public Player getPlayer(int index)
+    {
+        return players.get(index);
+    }
+
+    public int getNumberOfPlayers()
+    {
+        return players.size();
     }
 }

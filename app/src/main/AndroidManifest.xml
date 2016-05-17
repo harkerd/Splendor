@@ -19,10 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.GameView"
-            android:label="@string/title_activity_game_view">
-        </activity>
-        <activity android:name=".view.PlayerView">
+            android:name=".view.GameActivity">
         </activity>
     </application>
 

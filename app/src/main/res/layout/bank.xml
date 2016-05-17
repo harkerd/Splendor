@@ -18,15 +18,11 @@
         custom:always_visible="true"
         custom:selectable="true"/>
 
-    <View
-        android:layout_width="@dimen/large_token_padding"
-        android:layout_height="@dimen/large_token_size"/>
-
-
     <drew.harker.splendorapp.view.ValueTokenView
         android:id="@+id/sapphireBank"
         android:layout_width="@dimen/large_token_size"
         android:layout_height="@dimen/large_token_size"
+        android:layout_marginLeft="@dimen/large_token_padding"
         style="@style/border_text"
         android:textSize="@dimen/large_text"
         android:background="@drawable/circle"
@@ -34,14 +30,11 @@
         custom:always_visible="true"
         custom:selectable="true"/>
 
-    <View
-        android:layout_width="@dimen/large_token_padding"
-        android:layout_height="@dimen/large_token_size"/>
-
     <drew.harker.splendorapp.view.ValueTokenView
         android:id="@+id/emeraldBank"
         android:layout_width="@dimen/large_token_size"
         android:layout_height="@dimen/large_token_size"
+        android:layout_marginLeft="@dimen/large_token_padding"
         style="@style/border_text"
         android:textSize="@dimen/large_text"
         android:background="@drawable/circle"
@@ -49,14 +42,11 @@
         custom:always_visible="true"
         custom:selectable="true"/>
 
-    <View
-        android:layout_width="@dimen/large_token_padding"
-        android:layout_height="@dimen/large_token_size"/>
-
     <drew.harker.splendorapp.view.ValueTokenView
         android:id="@+id/rubyBank"
         android:layout_width="@dimen/large_token_size"
         android:layout_height="@dimen/large_token_size"
+        android:layout_marginLeft="@dimen/large_token_padding"
         style="@style/border_text"
         android:textSize="@dimen/large_text"
         android:background="@drawable/circle"
@@ -64,14 +54,11 @@
         custom:always_visible="true"
         custom:selectable="true"/>
 
-    <View
-        android:layout_width="@dimen/large_token_padding"
-        android:layout_height="@dimen/large_token_size"/>
-
     <drew.harker.splendorapp.view.ValueTokenView
         android:id="@+id/onyxBank"
         android:layout_width="@dimen/large_token_size"
         android:layout_height="@dimen/large_token_size"
+        android:layout_marginLeft="@dimen/large_token_padding"
         style="@style/border_text"
         android:textSize="@dimen/large_text"
         android:background="@drawable/circle"
@@ -79,14 +66,11 @@
         custom:always_visible="true"
         custom:selectable="true"/>
 
-    <View
-        android:layout_width="@dimen/large_token_padding"
-        android:layout_height="@dimen/large_token_size"/>
-
     <drew.harker.splendorapp.view.ValueTokenView
         android:id="@+id/goldBank"
         android:layout_width="@dimen/large_token_size"
         android:layout_height="@dimen/large_token_size"
+        android:layout_marginLeft="@dimen/large_token_padding"
         style="@style/border_text"
         android:textSize="@dimen/large_text"
         android:background="@drawable/circle"

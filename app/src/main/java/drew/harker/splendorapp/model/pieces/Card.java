@@ -1,8 +1,11 @@
 package drew.harker.splendorapp.model.pieces;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import drew.harker.splendorapp.exceptions.InvalidTypeException;
 
-public class Card
+public class Card implements Parcelable
 {
     private Gem source;
     private GemList requirement;
@@ -50,5 +53,41 @@ public class Card
             Card that = (Card) o;
             return source.equals(that.source) && requirement.equals(that.requirement) && victoryPoints == that.victoryPoints;
         }
+    }
+
+    protected Card(Parcel in)
+    {
+        victoryPoints = in.readInt();
+        source = Gem.fromString(in.readString());
+        requirement = (GemList) in.readSerializable();
+    }
+
+    public static final Creator<Card> CREATOR = new Creator<Card>()
+    {
+        @Override
+        public Card createFromParcel(Parcel in)
+        {
+            return new Card(in);
+        }
+
+        @Override
+        public Card[] newArray(int size)
+        {
+            return new Card[size];
+        }
+    };
+
+    @Override
+    public int describeContents()
+    {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags)
+    {
+        dest.writeInt(victoryPoints);
+        dest.writeString(source.toString());
+        dest.writeSerializable(requirement);
     }
 }

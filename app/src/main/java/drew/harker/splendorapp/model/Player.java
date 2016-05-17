@@ -1,23 +1,47 @@
 package drew.harker.splendorapp.model;
 
+import java.util.LinkedList;
 import java.util.List;
-
 import drew.harker.splendorapp.exceptions.InvalidActionException;
 import drew.harker.splendorapp.exceptions.InvalidTypeException;
 import drew.harker.splendorapp.model.pieces.Card;
+import drew.harker.splendorapp.model.pieces.Gem;
 import drew.harker.splendorapp.model.pieces.GemList;
-import drew.harker.splendorapp.model.pieces.Noble;
 import drew.harker.splendorapp.model.pieces.Token;
 import drew.harker.splendorapp.model.pieces.TokenList;
 
 public class Player
 {
-    private GemList gems;
-    private TokenList tokens;
-    private List<Card> cards;
+    private GemList gems = new GemList();
+    private GemList cardTotals = new GemList();
+    private TokenList tokens = new TokenList();
     private List<Card> reservedCards;
-    private List<Noble> nobles;
     private int victoryPoints;
+    private String name = "Default Name";
+
+    public Player(String name)
+    {
+        init();
+        this.name = name;
+    }
+
+    private void init()
+    {
+        gems = new GemList();
+        cardTotals = new GemList();
+        tokens = new TokenList();
+        reservedCards = new LinkedList<>();
+        try
+        {
+            reservedCards.add(new Card(Gem.DIAMOND, new GemList(1,0,1,0,1), 0));
+            reservedCards.add(new Card(Gem.SAPPHIRE, new GemList(0,1,0,1,0), 1));
+            reservedCards.add(new Card(Gem.RUBY, new GemList(1,1,1,1,0), 2));
+        } catch (InvalidTypeException e)
+        {
+            e.printStackTrace();
+        }
+        victoryPoints = 0;
+    }
 
     public void increment(Token token) throws InvalidTypeException
     {
@@ -90,14 +114,33 @@ public class Player
         return false;
     }
 
-    public void addCard(Card card)
+    public String getName()
     {
-        cards.add(card);
+        return name;
     }
 
-
-    public void addNoble(Noble noble)
+    public GemList getCardTotals()
     {
-        nobles.add(noble);
+        return cardTotals;
+    }
+
+    public TokenList getTokens()
+    {
+        return tokens;
+    }
+
+    public int getVictoryPoints()
+    {
+        return victoryPoints;
+    }
+
+    public Card[] getReserveCardArray()
+    {
+        Card[] arr = new Card[Game.MAX_NUMBER_OF_RESERVED_CARDS];
+        for(int i = 0; i < reservedCards.size(); i++)
+        {
+            arr[i] = reservedCards.get(i);
+        }
+        return arr;
     }
 }

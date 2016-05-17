@@ -1,8 +1,10 @@
 package drew.harker.splendorapp.model.pieces;
 
+import java.io.Serializable;
+
 import drew.harker.splendorapp.exceptions.InvalidTypeException;
 
-public class GemList
+public class GemList implements Serializable
 {
     private int diamond;
     private int emerald;

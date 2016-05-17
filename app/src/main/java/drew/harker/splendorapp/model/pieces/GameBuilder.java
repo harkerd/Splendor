@@ -6,11 +6,11 @@ import java.util.Random;
 
 import drew.harker.splendorapp.exceptions.InvalidActionException;
 import drew.harker.splendorapp.exceptions.InvalidTypeException;
+import drew.harker.splendorapp.model.Game;
 
 public class GameBuilder
 {
-    public static final int MAX_NUMBER_OF_PLAYERS = 4;
-    public static final int MIN_NUMBER_OF_PLAYERS = 2;
+
 
     public static Deck initLevelOne()
     {
@@ -163,7 +163,7 @@ public class GameBuilder
     private static final Random r = new Random(System.currentTimeMillis());
     public static List<Noble> initNobles(int numberOfPlayers) throws InvalidActionException
     {
-        if(numberOfPlayers > MAX_NUMBER_OF_PLAYERS || numberOfPlayers < MIN_NUMBER_OF_PLAYERS)
+        if(numberOfPlayers > Game.MAX_NUMBER_OF_PLAYERS || numberOfPlayers < Game.MIN_NUMBER_OF_PLAYERS)
         {
             throw new InvalidActionException();
         }

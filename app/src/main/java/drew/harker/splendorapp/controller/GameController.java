@@ -1,26 +1,27 @@
 package drew.harker.splendorapp.controller;
 
 import drew.harker.splendorapp.model.Game;
-import drew.harker.splendorapp.model.StaticCurrentGameAccess;
-import drew.harker.splendorapp.exceptions.CanPickMultipleNoblesException;
-import drew.harker.splendorapp.exceptions.CardDoesNotExistException;
-import drew.harker.splendorapp.exceptions.InsufficientResourcesException;
-import drew.harker.splendorapp.exceptions.InvalidActionException;
-import drew.harker.splendorapp.exceptions.InvalidTypeException;
-import drew.harker.splendorapp.model.pieces.Location;
-import drew.harker.splendorapp.model.pieces.Token;
-import drew.harker.splendorapp.view.GameView;
+import drew.harker.splendorapp.model.pieces.Card;
+import drew.harker.splendorapp.view.GameActivity;
+import drew.harker.splendorapp.view.ReserveView;
 
-public class GameController
+public class GameController implements ReserveView.ReserveViewListener
 {
     private Game currentGame;
-    private GameView view;
 
-    public GameController(Game game, GameView view)
+    public GameController(Game game)
     {
         currentGame = game;
-        this.view = view;
     }
+
+    @Override
+    public void cardSelected(Card card)
+    {
+        System.out.println("Card selected");
+        //TODO: implement
+    }
+
+
 
     //TODO: Fix this design. Now that I am tying it into the view I can see that it does not work well.
     /*protected void takeTwoSameTokens(Token token) throws InvalidActionException

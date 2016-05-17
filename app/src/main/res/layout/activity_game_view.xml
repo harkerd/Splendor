@@ -3,8 +3,7 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:background="#0099cc"
-             tools:context="drew.harker.splendorapp.view.GameView"
-             android:id="@+id/it">
+             tools:context=".view.GameActivity">
 
     <LinearLayout
         android:id="@+id/game_view"
@@ -46,10 +45,9 @@
             android:id="@+id/bank"/>
 
         <!-- Users Cards and Coins and Points -->
-        <include layout="@layout/player_bank"
-            android:id="@+id/player_bank"/>
 
-        <!-- TODO: build a way to look your reserved cards and at the other players stuff -->
+        <include layout="@layout/single_line_player_bank"
+            android:id="@+id/player_bank"/>
 
     </LinearLayout>
 
